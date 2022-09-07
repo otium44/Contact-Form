@@ -31,7 +31,7 @@ if (empty($formErrors)) {
 
 if (empty($formErrors)) {
 
-  mail('yasseralibgy@gmail.com', 'Contact form', $msg, $headers);
+  mail('<Your_E-mail@mail.com>', 'Contact form', $msg, $headers);
 
   $user = '';
   $email = '';
